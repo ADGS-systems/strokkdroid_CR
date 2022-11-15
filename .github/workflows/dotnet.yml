@@ -21,8 +21,11 @@ jobs:
       with:
         dotnet-version: 3.x.x
     - name: Restore dependencies
-      run: dotnet restore /IntegrationTest/IntegrationTest/IntegrationTest.csproj
+      run: dotnet restore 
+      working-directory: IntegrationTest/IntegrationTest
     - name: Build
-      run: dotnet build --no-restore /IntegrationTest/IntegrationTest/IntegrationTest.csproj
+      run: dotnet build --no-restore 
+      working-directory: IntegrationTest/IntegrationTest
     - name: Test
-      run: dotnet test --no-build --verbosity normal /IntegrationTest/IntegrationTest/IntegrationTest.csproj
+      run: dotnet test --no-build --verbosity normal 
+      working-directory: IntegrationTest/IntegrationTest
