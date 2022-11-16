@@ -18,8 +18,6 @@ D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.MvcApplicationPartsAssemblyInfo.cs
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.MvcApplicationPartsAssemblyInfo.cache
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\staticwebassets\IntegrationTest.StaticWebAssets.Manifest.cache
-D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\staticwebassets\IntegrationTest.StaticWebAssets.xml
-D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\scopedcss\bundle\IntegrationTest.styles.css
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.RazorTargetAssemblyInfo.cache
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.csproj.CopyComplete
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.dll

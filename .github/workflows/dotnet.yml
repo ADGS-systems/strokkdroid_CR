@@ -22,10 +22,10 @@ jobs:
         dotnet-version: 3.x.x
     - name: Restore dependencies
       run: dotnet restore 
-      working-directory: IntegrationTest/IntegrationTest
+      working-directory: IntegrationTest
     - name: Build
       run: dotnet build --no-restore 
-      working-directory: IntegrationTest/IntegrationTest
+      working-directory: IntegrationTest
     - name: Test
       run: dotnet test --no-build --verbosity normal 
-      working-directory: IntegrationTest/IntegrationTest
+      working-directory: IntegrationTest
