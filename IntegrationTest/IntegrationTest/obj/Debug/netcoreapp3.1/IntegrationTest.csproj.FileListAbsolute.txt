@@ -23,3 +23,5 @@ D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.dll
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.pdb
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.genruntimeconfig.cache
+D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\staticwebassets\IntegrationTest.StaticWebAssets.xml
+D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\scopedcss\bundle\IntegrationTest.styles.css
