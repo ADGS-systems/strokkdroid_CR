@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IntegrationTest.Interfaces;
 
 namespace IntegrationTest
 {
@@ -26,6 +27,7 @@ namespace IntegrationTest
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddTransient<IBDG, DummyList>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
