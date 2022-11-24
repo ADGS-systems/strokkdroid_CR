@@ -21,11 +21,11 @@ jobs:
       with:
         dotnet-version: 3.x.x
     - name: Restore dependencies
-      run: dotnet restore 
+      run: dotnet restore IntegrationTest.sln
       working-directory: IntegrationTest
     - name: Build
-      run: dotnet build --no-restore 
+      run: dotnet build --no-restore  IntegrationTest.sln
       working-directory: IntegrationTest
     - name: Test
-      run: dotnet test --no-build --verbosity normal 
+      run: dotnet test --no-build --verbosity normal  IntegrationTest.sln
       working-directory: IntegrationTest
