@@ -10,7 +10,6 @@ D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.csproj.AssemblyReference.cache
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.GeneratedMSBuildEditorConfig.editorconfig
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.AssemblyInfoInputs.cache
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.AssemblyInfo.cs
@@ -25,3 +24,7 @@ D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\IntegrationTest.genruntimeconfig.cache
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\staticwebassets\IntegrationTest.StaticWebAssets.xml
 D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\obj\Debug\netcoreapp3.1\scopedcss\bundle\IntegrationTest.styles.css
+D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\NLog.config
+D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\NLog.dll
+D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll

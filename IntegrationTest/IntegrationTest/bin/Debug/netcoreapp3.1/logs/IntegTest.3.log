@@ -1,0 +1,42 @@
+2022/11/24 12:50:51.465 D Host                           Hosting starting 
+2022/11/24 12:50:51.714 D KestrelServer                  Failed to locate the development https certificate at '(null)'. 
+2022/11/24 12:50:51.746 I Lifetime                       Now listening on: http://localhost:5000 
+2022/11/24 12:50:51.747 D Diagnostics                    Loaded hosting startup assembly IntegrationTest 
+2022/11/24 12:50:51.747 I Lifetime                       Application started. Press Ctrl+C to shut down. 
+2022/11/24 12:50:51.747 I Lifetime                       Hosting environment: Development 
+2022/11/24 12:50:51.747 I Lifetime                       Content root path: D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest 
+2022/11/24 12:50:51.747 D Host                           Hosting started 
+2022/11/24 12:50:51.788 D Kestrel                        Connection id "0HMME6EL0M9KM" accepted. 
+2022/11/24 12:50:51.788 D Kestrel                        Connection id "0HMME6EL0M9KN" accepted. 
+2022/11/24 12:50:51.788 D Kestrel                        Connection id "0HMME6EL0M9KM" started. 
+2022/11/24 12:50:51.788 D Kestrel                        Connection id "0HMME6EL0M9KN" started. 
+2022/11/24 12:50:51.803 D Sockets                        Connection id "0HMME6EL0M9KN" received FIN. 
+2022/11/24 12:50:51.803 D Sockets                        Connection id "0HMME6EL0M9KM" received FIN. 
+2022/11/24 12:50:51.826 D Sockets                        Connection id "0HMME6EL0M9KM" sending FIN because: "The client closed the connection." 
+2022/11/24 12:50:51.826 D Sockets                        Connection id "0HMME6EL0M9KN" sending FIN because: "The client closed the connection." 
+2022/11/24 12:50:51.826 D Kestrel                        Connection id "0HMME6EL0M9KM" disconnecting. 
+2022/11/24 12:50:51.826 D Kestrel                        Connection id "0HMME6EL0M9KN" disconnecting. 
+2022/11/24 12:50:51.826 D Kestrel                        Connection id "0HMME6EL0M9KM" stopped. 
+2022/11/24 12:50:51.826 D Kestrel                        Connection id "0HMME6EL0M9KN" stopped. 
+2022/11/24 12:50:52.179 D Kestrel                        Connection id "0HMME6EL0M9KO" accepted. 
+2022/11/24 12:50:52.179 D Kestrel                        Connection id "0HMME6EL0M9KO" started. 
+2022/11/24 12:50:52.179 D Kestrel                        Connection id "0HMME6EL0M9KP" accepted. 
+2022/11/24 12:50:52.179 D Kestrel                        Connection id "0HMME6EL0M9KP" started. 
+2022/11/24 12:50:52.207 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   
+2022/11/24 12:50:52.207 D HostFilteringMiddleware        Wildcard detected, all requests with hosts will be allowed. 
+2022/11/24 12:50:52.207 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 12:50:52.268 D Kestrel                        Connection id "0HMME6EL0M9KO" completed keep alive response. 
+2022/11/24 12:50:52.268 I Diagnostics                    Request finished in 62.8106ms 200 text/html;charset=utf-8 
+2022/11/24 12:50:52.494 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   
+2022/11/24 12:50:52.499 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 12:50:52.576 D Kestrel                        Connection id "0HMME6EL0M9KO" completed keep alive response. 
+2022/11/24 12:50:52.576 I Diagnostics                    Request finished in 82.4427ms 200 application/json;charset=utf-8 
+2022/11/24 12:51:02.753 I Lifetime                       Application is shutting down... 
+2022/11/24 12:51:02.753 D Host                           Hosting stopping 
+2022/11/24 12:51:02.790 D Kestrel                        Connection id "0HMME6EL0M9KO" disconnecting. 
+2022/11/24 12:51:02.790 D Kestrel                        Connection id "0HMME6EL0M9KP" disconnecting. 
+2022/11/24 12:51:02.790 D Kestrel                        Connection id "0HMME6EL0M9KO" stopped. 
+2022/11/24 12:51:02.790 D Kestrel                        Connection id "0HMME6EL0M9KP" stopped. 
+2022/11/24 12:51:02.790 D Sockets                        Connection id "0HMME6EL0M9KO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 12:51:02.790 D Sockets                        Connection id "0HMME6EL0M9KP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 12:51:02.841 D Host                           Hosting stopped 

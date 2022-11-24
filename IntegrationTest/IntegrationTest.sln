@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTest", "IntegrationTest\IntegrationTest.csproj", "{B3C147AE-4680-4F47-A15F-D697B31BD7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8AA476FD-52FA-457E-BF10-C66EF62EAA94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{8AA476FD-52FA-457E-BF10-C66EF62EAA94}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8A7784E9-271F-44AE-B934-1E33DB2FF1DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8AA476FD-52FA-457E-BF10-C66EF62EAA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AA476FD-52FA-457E-BF10-C66EF62EAA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AA476FD-52FA-457E-BF10-C66EF62EAA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7784E9-271F-44AE-B934-1E33DB2FF1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7784E9-271F-44AE-B934-1E33DB2FF1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7784E9-271F-44AE-B934-1E33DB2FF1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7784E9-271F-44AE-B934-1E33DB2FF1DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

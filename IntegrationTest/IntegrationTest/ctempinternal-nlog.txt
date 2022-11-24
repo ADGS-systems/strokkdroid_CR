@@ -1,0 +1,10 @@
+2022-11-24 15:09:23.3191 Info Message Template Auto Format enabled
+2022-11-24 15:09:23.3364 Info Loading assembly: NLog.Web.AspNetCore
+2022-11-24 15:09:23.3926 Info Adding target FileTarget(Name=fileTarget)
+2022-11-24 15:09:23.4010 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-11-24 15:09:23.4010 Info Adding target FileTarget(Name=MiddleTarget)
+2022-11-24 15:09:23.4272 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/NLog.config
+2022-11-24 15:09:23.4410 Info Configuration initialized.
+2022-11-24 15:09:23.4817 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.5.1426. Product version: 5.0.5+ace23d89ecf3dc2675648414a1f01ee9c1b2383d. GlobalAssemblyCache: False
+2022-11-24 15:09:23.4817 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/NLog.config
+2022-11-24 15:09:23.5425 Info FileTarget(Name=fileTarget): Archiving /mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/logs/IntegTest.log to /mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/logs/IntegTest.5.log

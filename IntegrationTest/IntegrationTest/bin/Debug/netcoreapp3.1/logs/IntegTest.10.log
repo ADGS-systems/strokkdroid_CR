@@ -1,0 +1,36 @@
+2022/11/24 15:56:39.236 D Host                           Hosting starting 
+2022/11/24 15:56:39.488 D KestrelServer                  Failed to locate the development https certificate at '(null)'. 
+2022/11/24 15:56:39.488 W Kestrel                        Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead. 
+2022/11/24 15:56:39.514 I Lifetime                       Now listening on: http://0.0.0.0:6500 
+2022/11/24 15:56:39.514 D Diagnostics                    Loaded hosting startup assembly IntegrationTest 
+2022/11/24 15:56:39.514 I Lifetime                       Application started. Press Ctrl+C to shut down. 
+2022/11/24 15:56:39.514 I Lifetime                       Hosting environment: Development 
+2022/11/24 15:56:39.514 I Lifetime                       Content root path: D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest 
+2022/11/24 15:56:39.514 D Host                           Hosting started 
+2022/11/24 15:56:47.807 D Kestrel                        Connection id "0HMME9MHOOSU1" accepted. 
+2022/11/24 15:56:47.807 D Kestrel                        Connection id "0HMME9MHOOSU1" started. 
+2022/11/24 15:56:47.812 D Kestrel                        Connection id "0HMME9MHOOSU2" accepted. 
+2022/11/24 15:56:47.812 D Kestrel                        Connection id "0HMME9MHOOSU2" started. 
+2022/11/24 15:56:47.837 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/swagger/index.html   
+2022/11/24 15:56:47.837 D HostFilteringMiddleware        Wildcard detected, all requests with hosts will be allowed. 
+2022/11/24 15:56:47.837 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 15:56:47.890 D Kestrel                        Connection id "0HMME9MHOOSU1" completed keep alive response. 
+2022/11/24 15:56:47.890 I Diagnostics                    Request finished in 55.2565ms 200 text/html;charset=utf-8 
+2022/11/24 15:56:48.019 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/swagger/v1/swagger.json   
+2022/11/24 15:56:48.019 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 15:56:48.058 D Kestrel                        Connection id "0HMME9MHOOSU3" accepted. 
+2022/11/24 15:56:48.063 D Kestrel                        Connection id "0HMME9MHOOSU3" started. 
+2022/11/24 15:56:48.087 D Kestrel                        Connection id "0HMME9MHOOSU1" completed keep alive response. 
+2022/11/24 15:56:48.087 I Diagnostics                    Request finished in 68.7779ms 200 application/json;charset=utf-8 
+2022/11/24 15:56:52.078 I Lifetime                       Application is shutting down... 
+2022/11/24 15:56:52.078 D Host                           Hosting stopping 
+2022/11/24 15:56:52.102 D Kestrel                        Connection id "0HMME9MHOOSU3" disconnecting. 
+2022/11/24 15:56:52.102 D Kestrel                        Connection id "0HMME9MHOOSU2" disconnecting. 
+2022/11/24 15:56:52.102 D Kestrel                        Connection id "0HMME9MHOOSU1" disconnecting. 
+2022/11/24 15:56:52.102 D Kestrel                        Connection id "0HMME9MHOOSU3" stopped. 
+2022/11/24 15:56:52.102 D Kestrel                        Connection id "0HMME9MHOOSU1" stopped. 
+2022/11/24 15:56:52.102 D Kestrel                        Connection id "0HMME9MHOOSU2" stopped. 
+2022/11/24 15:56:52.113 D Sockets                        Connection id "0HMME9MHOOSU3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 15:56:52.113 D Sockets                        Connection id "0HMME9MHOOSU1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 15:56:52.113 D Sockets                        Connection id "0HMME9MHOOSU2" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 15:56:52.191 D Host                           Hosting stopped 

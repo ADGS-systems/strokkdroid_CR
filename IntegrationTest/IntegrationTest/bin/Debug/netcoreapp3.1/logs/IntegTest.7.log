@@ -1,0 +1,9 @@
+2022/11/24 15:13:42.928 D Host                           Hosting starting 
+2022/11/24 15:13:43.300 D KestrelServer                  Failed to locate the development https certificate at '(null)'. 
+2022/11/24 15:13:43.308 W Kestrel                        Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead. 
+2022/11/24 15:13:43.337 I Lifetime                       Now listening on: http://0.0.0.0:6500 
+2022/11/24 15:13:43.337 D Diagnostics                    Loaded hosting startup assembly IntegrationTest 
+2022/11/24 15:13:43.337 I Lifetime                       Application started. Press Ctrl+C to shut down. 
+2022/11/24 15:13:43.337 I Lifetime                       Hosting environment: Development 
+2022/11/24 15:13:43.337 I Lifetime                       Content root path: C:\app 
+2022/11/24 15:13:43.337 D Host                           Hosting started 

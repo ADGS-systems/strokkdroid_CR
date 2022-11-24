@@ -1,0 +1,127 @@
+2022/11/24 15:27:00.466 D Host                           Hosting starting 
+2022/11/24 15:27:00.724 D KestrelServer                  Failed to locate the development https certificate at '(null)'. 
+2022/11/24 15:27:00.724 W Kestrel                        Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead. 
+2022/11/24 15:27:00.752 I Lifetime                       Now listening on: http://0.0.0.0:6500 
+2022/11/24 15:27:00.752 D Diagnostics                    Loaded hosting startup assembly IntegrationTest 
+2022/11/24 15:27:00.752 I Lifetime                       Application started. Press Ctrl+C to shut down. 
+2022/11/24 15:27:00.752 I Lifetime                       Hosting environment: Development 
+2022/11/24 15:27:00.752 I Lifetime                       Content root path: D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest 
+2022/11/24 15:27:00.752 D Host                           Hosting started 
+2022/11/24 15:27:20.774 D Kestrel                        Connection id "0HMME96351A5A" accepted. 
+2022/11/24 15:27:20.774 D Kestrel                        Connection id "0HMME96351A5A" started. 
+2022/11/24 15:27:20.779 D Kestrel                        Connection id "0HMME96351A5B" accepted. 
+2022/11/24 15:27:20.779 D Kestrel                        Connection id "0HMME96351A5B" started. 
+2022/11/24 15:27:20.803 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/swagger/index.html   
+2022/11/24 15:27:20.803 D HostFilteringMiddleware        Wildcard detected, all requests with hosts will be allowed. 
+2022/11/24 15:27:20.803 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 15:27:20.853 D Kestrel                        Connection id "0HMME96351A5A" completed keep alive response. 
+2022/11/24 15:27:20.853 I Diagnostics                    Request finished in 51.8466ms 200 text/html;charset=utf-8 
+2022/11/24 15:27:21.021 D Kestrel                        Connection id "0HMME96351A5C" accepted. 
+2022/11/24 15:27:21.021 D Kestrel                        Connection id "0HMME96351A5C" started. 
+2022/11/24 15:27:21.035 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/swagger/v1/swagger.json   
+2022/11/24 15:27:21.035 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 15:27:21.090 D Kestrel                        Connection id "0HMME96351A5A" completed keep alive response. 
+2022/11/24 15:27:21.090 I Diagnostics                    Request finished in 55.394ms 200 application/json;charset=utf-8 
+2022/11/24 15:27:28.485 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/Demo?toFind=viva   
+2022/11/24 15:27:28.485 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 15:27:28.485 D StaticFileMiddleware           The request path  does not match the path filter 
+2022/11/24 15:27:28.509 D DfaMatcher                     1 candidate(s) found for the request path '/Demo' 
+2022/11/24 15:27:28.509 D DfaMatcher                     Endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' with route pattern 'Demo' is valid for the request path '/Demo' 
+2022/11/24 15:27:28.509 D EndpointRoutingMiddleware      Request matched endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' 
+2022/11/24 15:27:28.513 I EndpointMiddleware             Executing endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' 
+2022/11/24 15:27:28.513 D ModelBinderFactory             Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2022/11/24 15:27:28.535 I ControllerActionInvoker        Route matched with {action = "get", controller = "Demo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult get(System.String) on controller IntegrationTest.Controllers.DemoController (IntegrationTest). 
+2022/11/24 15:27:28.535 D ControllerActionInvoker        Execution plan of authorization filters (in the following order): None 
+2022/11/24 15:27:28.535 D ControllerActionInvoker        Execution plan of resource filters (in the following order): None 
+2022/11/24 15:27:28.535 D ControllerActionInvoker        Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022/11/24 15:27:28.535 D ControllerActionInvoker        Execution plan of exception filters (in the following order): None 
+2022/11/24 15:27:28.535 D ControllerActionInvoker        Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022/11/24 15:27:28.544 D ControllerActionInvoker        Executing controller factory for controller IntegrationTest.Controllers.DemoController (IntegrationTest) 
+2022/11/24 15:27:28.544 D ControllerActionInvoker        Executed controller factory for controller IntegrationTest.Controllers.DemoController (IntegrationTest) 
+2022/11/24 15:27:28.544 D ParameterBinder                Attempting to bind parameter 'toFind' of type 'System.String' ... 
+2022/11/24 15:27:28.544 D SimpleTypeModelBinder          Attempting to bind parameter 'toFind' of type 'System.String' using the name 'toFind' in request data ... 
+2022/11/24 15:27:28.544 D SimpleTypeModelBinder          Done attempting to bind parameter 'toFind' of type 'System.String'. 
+2022/11/24 15:27:28.544 D ParameterBinder                Done attempting to bind parameter 'toFind' of type 'System.String'. 
+2022/11/24 15:27:28.544 D ParameterBinder                Attempting to validate the bound parameter 'toFind' of type 'System.String' ... 
+2022/11/24 15:27:28.544 D ParameterBinder                Done attempting to validate the bound parameter 'toFind' of type 'System.String'. 
+2022/11/24 15:27:28.544 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:28.544 T ControllerActionInvoker        Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:28.544 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:28.561 I ControllerActionInvoker        Executing action method IntegrationTest.Controllers.DemoController.get (IntegrationTest) - Validation state: Valid 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Executing action method IntegrationTest.Controllers.DemoController.get (IntegrationTest) with arguments (viva) 
+2022/11/24 15:27:28.561 I ControllerActionInvoker        Executed action method IntegrationTest.Controllers.DemoController.get (IntegrationTest), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 0.5084ms. 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:28.561 T ControllerActionInvoker        Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:28.576 T ClientErrorResultFilter        Replacing Microsoft.AspNetCore.Mvc.NotFoundResult with status code 404 with Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022/11/24 15:27:28.576 T ControllerActionInvoker        Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:28.576 T ControllerActionInvoker        Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022/11/24 15:27:28.576 D DefaultOutputFormatterSelector List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022/11/24 15:27:28.576 D DefaultOutputFormatterSelector No information found on request to perform content negotiation. 
+2022/11/24 15:27:28.576 D DefaultOutputFormatterSelector Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml'. 
+2022/11/24 15:27:28.576 D DefaultOutputFormatterSelector Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response. 
+2022/11/24 15:27:28.576 I ObjectResultExecutor           Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2022/11/24 15:27:28.576 T ControllerActionInvoker        After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022/11/24 15:27:28.576 T ControllerActionInvoker        Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:28.576 T ControllerActionInvoker        Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:28.593 I ControllerActionInvoker        Executed action IntegrationTest.Controllers.DemoController.get (IntegrationTest) in 47.8873ms 
+2022/11/24 15:27:28.593 I EndpointMiddleware             Executed endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' 
+2022/11/24 15:27:28.593 D Kestrel                        Connection id "0HMME96351A5A" completed keep alive response. 
+2022/11/24 15:27:28.593 I Diagnostics                    Request finished in 109.3332ms 404 application/problem+json; charset=utf-8 
+2022/11/24 15:27:34.830 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/WeatherForecast   
+2022/11/24 15:27:34.830 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 15:27:34.830 D StaticFileMiddleware           The request path  does not match the path filter 
+2022/11/24 15:27:34.830 D DfaMatcher                     1 candidate(s) found for the request path '/WeatherForecast' 
+2022/11/24 15:27:34.830 D DfaMatcher                     Endpoint 'IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast' 
+2022/11/24 15:27:34.830 D EndpointRoutingMiddleware      Request matched endpoint 'IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest)' 
+2022/11/24 15:27:34.830 I EndpointMiddleware             Executing endpoint 'IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest)' 
+2022/11/24 15:27:34.843 I ControllerActionInvoker        Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[IntegrationTest.WeatherForecast] Get() on controller IntegrationTest.Controllers.WeatherForecastController (IntegrationTest). 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Execution plan of authorization filters (in the following order): None 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Execution plan of resource filters (in the following order): None 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Execution plan of exception filters (in the following order): None 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Executing controller factory for controller IntegrationTest.Controllers.WeatherForecastController (IntegrationTest) 
+2022/11/24 15:27:34.843 D ControllerActionInvoker        Executed controller factory for controller IntegrationTest.Controllers.WeatherForecastController (IntegrationTest) 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:34.843 I ControllerActionInvoker        Executing action method IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest) - Validation state: Valid 
+2022/11/24 15:27:34.843 I ControllerActionInvoker        Executed action method IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0324ms. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:34.843 T ControllerActionInvoker        Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022/11/24 15:27:34.860 D DefaultOutputFormatterSelector List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022/11/24 15:27:34.860 D DefaultOutputFormatterSelector Attempting to select an output formatter based on Accept header 'text/plain'. 
+2022/11/24 15:27:34.860 D DefaultOutputFormatterSelector Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2022/11/24 15:27:34.860 D DefaultOutputFormatterSelector Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022/11/24 15:27:34.860 D DefaultOutputFormatterSelector Attempting to select the first formatter in the output formatters list which can write the result. 
+2022/11/24 15:27:34.860 D DefaultOutputFormatterSelector Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022/11/24 15:27:34.860 I ObjectResultExecutor           Executing ObjectResult, writing value of type 'IntegrationTest.WeatherForecast[]'. 
+2022/11/24 15:27:34.860 T ControllerActionInvoker        After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022/11/24 15:27:34.860 T ControllerActionInvoker        Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:34.860 T ControllerActionInvoker        Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 15:27:34.860 I ControllerActionInvoker        Executed action IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest) in 24.976ms 
+2022/11/24 15:27:34.860 I EndpointMiddleware             Executed endpoint 'IntegrationTest.Controllers.WeatherForecastController.Get (IntegrationTest)' 
+2022/11/24 15:27:34.860 D Kestrel                        Connection id "0HMME96351A5A" completed keep alive response. 
+2022/11/24 15:27:34.860 I Diagnostics                    Request finished in 42.0251ms 200 application/json; charset=utf-8 
+2022/11/24 15:27:42.841 I Lifetime                       Application is shutting down... 
+2022/11/24 15:27:42.841 D Host                           Hosting stopping 
+2022/11/24 15:27:42.870 D Kestrel                        Connection id "0HMME96351A5A" disconnecting. 
+2022/11/24 15:27:42.870 D Kestrel                        Connection id "0HMME96351A5C" disconnecting. 
+2022/11/24 15:27:42.870 D Kestrel                        Connection id "0HMME96351A5B" disconnecting. 
+2022/11/24 15:27:42.870 D Kestrel                        Connection id "0HMME96351A5C" stopped. 
+2022/11/24 15:27:42.870 D Kestrel                        Connection id "0HMME96351A5B" stopped. 
+2022/11/24 15:27:42.870 D Kestrel                        Connection id "0HMME96351A5A" stopped. 
+2022/11/24 15:27:42.879 D Sockets                        Connection id "0HMME96351A5B" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 15:27:42.879 D Sockets                        Connection id "0HMME96351A5A" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 15:27:42.879 D Sockets                        Connection id "0HMME96351A5C" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022/11/24 15:27:42.956 D Host                           Hosting stopped 

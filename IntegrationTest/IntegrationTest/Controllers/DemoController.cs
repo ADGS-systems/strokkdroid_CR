@@ -8,7 +8,7 @@ using IntegrationTest.Interfaces;
 
 namespace IntegrationTest.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DemoController : ControllerBase
     {

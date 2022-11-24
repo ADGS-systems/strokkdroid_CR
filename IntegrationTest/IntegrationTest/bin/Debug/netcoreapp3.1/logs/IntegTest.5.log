@@ -1,0 +1,84 @@
+2022/11/24 12:56:26.072 D Host                           Hosting starting 
+2022/11/24 12:56:35.766 D KestrelServer                  Failed to locate the development https certificate at '(null)'. 
+2022/11/24 12:56:35.766 W Kestrel                        Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead. 
+2022/11/24 12:56:35.793 I Lifetime                       Now listening on: http://0.0.0.0:6500 
+2022/11/24 12:56:35.793 D Diagnostics                    Loaded hosting startup assembly IntegrationTest 
+2022/11/24 12:56:35.793 I Lifetime                       Application started. Press Ctrl+C to shut down. 
+2022/11/24 12:56:35.794 I Lifetime                       Hosting environment: Development 
+2022/11/24 12:56:35.794 I Lifetime                       Content root path: D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest\IntegrationTest 
+2022/11/24 12:56:35.794 D Host                           Hosting started 
+2022/11/24 12:56:42.727 D Kestrel                        Connection id "0HMME6HTJGHJV" accepted. 
+2022/11/24 12:56:42.727 D Kestrel                        Connection id "0HMME6HTJGHJV" started. 
+2022/11/24 12:56:42.732 D Kestrel                        Connection id "0HMME6HTJGHK0" accepted. 
+2022/11/24 12:56:42.732 D Kestrel                        Connection id "0HMME6HTJGHK0" started. 
+2022/11/24 12:56:44.762 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/swagger/index.html   
+2022/11/24 12:56:44.766 D HostFilteringMiddleware        Wildcard detected, all requests with hosts will be allowed. 
+2022/11/24 12:56:44.766 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 12:56:44.815 D Kestrel                        Connection id "0HMME6HTJGHJV" completed keep alive response. 
+2022/11/24 12:56:44.815 I Diagnostics                    Request finished in 55.2436ms 200 text/html;charset=utf-8 
+2022/11/24 12:56:44.989 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/swagger/v1/swagger.json   
+2022/11/24 12:56:44.989 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 12:56:45.050 D Kestrel                        Connection id "0HMME6HTJGHJV" completed keep alive response. 
+2022/11/24 12:56:45.050 I Diagnostics                    Request finished in 64.8966ms 200 application/json;charset=utf-8 
+2022/11/24 12:57:12.583 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/demo?Tofind=hola   
+2022/11/24 12:57:12.583 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 12:57:12.583 D StaticFileMiddleware           The request path  does not match the path filter 
+2022/11/24 12:57:12.604 D DfaMatcher                     1 candidate(s) found for the request path '/demo' 
+2022/11/24 12:57:12.604 D DfaMatcher                     Endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' with route pattern 'Demo' is valid for the request path '/demo' 
+2022/11/24 12:57:12.604 D EndpointRoutingMiddleware      Request matched endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' 
+2022/11/24 12:57:12.608 I EndpointMiddleware             Executing endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' 
+2022/11/24 12:57:12.608 D ModelBinderFactory             Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2022/11/24 12:57:12.632 I ControllerActionInvoker        Route matched with {action = "get", controller = "Demo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult get(System.String) on controller IntegrationTest.Controllers.DemoController (IntegrationTest). 
+2022/11/24 12:57:12.632 D ControllerActionInvoker        Execution plan of authorization filters (in the following order): None 
+2022/11/24 12:57:12.632 D ControllerActionInvoker        Execution plan of resource filters (in the following order): None 
+2022/11/24 12:57:12.632 D ControllerActionInvoker        Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022/11/24 12:57:12.638 D ControllerActionInvoker        Execution plan of exception filters (in the following order): None 
+2022/11/24 12:57:12.638 D ControllerActionInvoker        Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022/11/24 12:57:12.638 D ControllerActionInvoker        Executing controller factory for controller IntegrationTest.Controllers.DemoController (IntegrationTest) 
+2022/11/24 12:57:12.638 D ControllerActionInvoker        Executed controller factory for controller IntegrationTest.Controllers.DemoController (IntegrationTest) 
+2022/11/24 12:57:12.638 D ParameterBinder                Attempting to bind parameter 'toFind' of type 'System.String' ... 
+2022/11/24 12:57:12.638 D SimpleTypeModelBinder          Attempting to bind parameter 'toFind' of type 'System.String' using the name 'toFind' in request data ... 
+2022/11/24 12:57:12.638 D SimpleTypeModelBinder          Done attempting to bind parameter 'toFind' of type 'System.String'. 
+2022/11/24 12:57:12.638 D ParameterBinder                Done attempting to bind parameter 'toFind' of type 'System.String'. 
+2022/11/24 12:57:12.638 D ParameterBinder                Attempting to validate the bound parameter 'toFind' of type 'System.String' ... 
+2022/11/24 12:57:12.638 D ParameterBinder                Done attempting to validate the bound parameter 'toFind' of type 'System.String'. 
+2022/11/24 12:57:12.638 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 12:57:12.655 I ControllerActionInvoker        Executing action method IntegrationTest.Controllers.DemoController.get (IntegrationTest) - Validation state: Valid 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Executing action method IntegrationTest.Controllers.DemoController.get (IntegrationTest) with arguments (hola) 
+2022/11/24 12:57:12.655 I ControllerActionInvoker        Executed action method IntegrationTest.Controllers.DemoController.get (IntegrationTest), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.8897ms. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 12:57:12.655 T ControllerActionInvoker        Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 12:57:12.670 T ControllerActionInvoker        Before executing action result Microsoft.AspNetCore.Mvc.ContentResult. 
+2022/11/24 12:57:12.670 I ContentResultExecutor          Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8 
+2022/11/24 12:57:12.670 T ControllerActionInvoker        After executing action result Microsoft.AspNetCore.Mvc.ContentResult. 
+2022/11/24 12:57:12.670 T ControllerActionInvoker        Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 12:57:12.670 T ControllerActionInvoker        Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022/11/24 12:57:12.670 I ControllerActionInvoker        Executed action IntegrationTest.Controllers.DemoController.get (IntegrationTest) in 35.9219ms 
+2022/11/24 12:57:12.670 I EndpointMiddleware             Executed endpoint 'IntegrationTest.Controllers.DemoController.get (IntegrationTest)' 
+2022/11/24 12:57:12.670 D Kestrel                        Connection id "0HMME6HTJGHJV" completed keep alive response. 
+2022/11/24 12:57:12.670 I Diagnostics                    Request finished in 95.9007ms 200 text/plain; charset=utf-8 
+2022/11/24 12:57:12.706 I Diagnostics                    Request starting HTTP/1.1 GET http://localhost:6500/favicon.ico   
+2022/11/24 12:57:12.706 T HostFilteringMiddleware        All hosts are allowed. 
+2022/11/24 12:57:12.706 D StaticFileMiddleware           The request path  does not match the path filter 
+2022/11/24 12:57:12.706 D DfaMatcher                     No candidates found for the request path '/favicon.ico' 
+2022/11/24 12:57:12.706 D EndpointRoutingMiddleware      Request did not match any endpoints 
+2022/11/24 12:57:12.706 D Kestrel                        Connection id "0HMME6HTJGHJV" completed keep alive response. 
+2022/11/24 12:57:12.706 I Diagnostics                    Request finished in 7.2874ms 404  
+2022/11/24 12:57:51.319 D Sockets                        Connection id "0HMME6HTJGHK0" received FIN. 
+2022/11/24 12:57:51.319 D Sockets                        Connection id "0HMME6HTJGHK0" sending FIN because: "The client closed the connection." 
+2022/11/24 12:57:51.319 D Kestrel                        Connection id "0HMME6HTJGHK0" disconnecting. 
+2022/11/24 12:57:51.319 D Kestrel                        Connection id "0HMME6HTJGHK0" stopped. 
+2022/11/24 13:04:27.365 D Sockets                        Connection id "0HMME6HTJGHJV" received FIN. 
+2022/11/24 13:04:27.365 D Kestrel                        Connection id "0HMME6HTJGHJV" disconnecting. 
+2022/11/24 13:04:27.365 D Sockets                        Connection id "0HMME6HTJGHJV" sending FIN because: "The client closed the connection." 
+2022/11/24 13:04:27.381 D Kestrel                        Connection id "0HMME6HTJGHJV" stopped. 
+2022/11/24 15:08:04.153 I Lifetime                       Application is shutting down... 
+2022/11/24 15:08:04.154 D Host                           Hosting stopping 
+2022/11/24 15:08:04.182 D Host                           Hosting stopped 
