@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: |
-        docker build -f ./IntegrationTest/IntegrationTest/Dockerfile  ./IntegrationTest --tag demoapi_autobuild:$(date +%s) --tag demoapi_autobuild:latest
+        docker build -f ./IntegrationTest/IntegrationTest/Dockerfile  ./IntegrationTest --tag adgscicd.azurecr.io/demoapi_autobuild:$(date +%s) --tag adgscicd.azurecr.io/demoapi_autobuild:latest
         docker push adgscicd.azurecr.io/demoapi_autobuild:latest
         
       
