@@ -20,4 +20,4 @@ jobs:
         password: ${{ secrets.ACR_SPPWD }}        
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file /IntegrationTest/Dockerfile --tag demoapi_autobuild:$(date +%s)
+      run: docker build . --file /IntegrationTest/IntegrationTest/Dockerfile --tag demoapi_autobuild:$(date +%s)
