@@ -1,0 +1,23 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: azure/docker-login@v1
+      with:
+        login-server: adgscicd.azurecr.io
+        username: ${{ secrets.ACR_SPID }}
+        password: ${{ secrets.ACR_SPPWD }}        
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build . --file /IntegrationTest/Dockerfile --tag demoapi_autobuild:$(date +%s)
