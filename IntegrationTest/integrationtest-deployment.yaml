@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.service.type: LoadBalancer
+    kompose.version: 1.27.0 (b0ed6a2c9)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: integrationtest
+  name: integrationtest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: integrationtest
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.service.type: LoadBalancer
+        kompose.version: 1.27.0 (b0ed6a2c9)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: integrationtest
+    spec:
+      containers:
+        - env:
+            - name: BindAddress
+              valueFrom:
+                configMapKeyRef:
+                  key: BindAddress
+                  name: IntegrationTest-Environments-gatodev-env
+            - name: ListenPort
+              valueFrom:
+                configMapKeyRef:
+                  key: ListenPort
+                  name: IntegrationTest-Environments-gatodev-env
+          image: adgscicd.azurecr.io/integrationtest
+          name: integrationtest
+          ports:
+            - containerPort: 6550
+          resources: {}
+      restartPolicy: Always
+status: {}

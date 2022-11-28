@@ -1,0 +1,26 @@
+name: dockercompose10865144524372535467
+services:
+  integrationtest:
+    build:
+      context: D:\Proyectos\ADGS\CICD\strokkdroid_CR\IntegrationTest
+      dockerfile: IntegrationTest\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      BindAddress: 0.0.0.0
+      ListenPort: "6550"
+    image: adgscicd.azurecr.io/integrationtest
+    labels:
+      kompose.service.type: LoadBalancer
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 6550
+      published: "5000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose10865144524372535467_default

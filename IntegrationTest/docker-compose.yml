@@ -2,12 +2,13 @@ version: '3.4'
 
 services:
   integrationtest:
-    image: ${DOCKER_REGISTRY-}integrationtest
+    image: adgscicd.azurecr.io/integrationtest        
     build:
-      context: .
-      dockerfile: IntegrationTest\Dockerfile
+      context: .             
+      dockerfile: IntegrationTest\Dockerfile     
     env_file:
         -   ./IntegrationTest/Environments/gatodev.env
     ports:
-        - "${ListenPort}:${ListenPort}"
- 
+        - "5000:6550"
+    labels:
+      kompose.service.type: LoadBalancer # need this label for Kubernetes

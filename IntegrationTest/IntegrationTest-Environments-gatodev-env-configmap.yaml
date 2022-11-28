@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  BindAddress: 0.0.0.0
+  ListenPort: "6550"
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  labels:
+    io.kompose.service: integrationtest-IntegrationTest-Environments-gatodev-env
+  name: IntegrationTest-Environments-gatodev-env

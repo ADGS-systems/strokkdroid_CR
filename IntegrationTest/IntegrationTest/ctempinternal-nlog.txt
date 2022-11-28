@@ -8,3 +8,25 @@
 2022-11-24 15:09:23.4817 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.5.1426. Product version: 5.0.5+ace23d89ecf3dc2675648414a1f01ee9c1b2383d. GlobalAssemblyCache: False
 2022-11-24 15:09:23.4817 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/NLog.config
 2022-11-24 15:09:23.5425 Info FileTarget(Name=fileTarget): Archiving /mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/logs/IntegTest.log to /mnt/d/Proyectos/ADGS/CICD/strokkdroid_CR/IntegrationTest/IntegrationTest/bin/Debug/netcoreapp3.1/logs/IntegTest.5.log
+2022-11-25 20:16:11.3822 Info Message Template Auto Format enabled
+2022-11-25 20:16:11.4236 Info Loading assembly: NLog.Web.AspNetCore
+2022-11-25 20:16:11.5006 Info Adding target FileTarget(Name=fileTarget)
+2022-11-25 20:16:11.5100 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-11-25 20:16:11.5100 Info Adding target FileTarget(Name=MiddleTarget)
+2022-11-25 20:16:11.5399 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/app/bin/Debug/netcoreapp3.1/NLog.config
+2022-11-25 20:16:11.5586 Info Configuration initialized.
+2022-11-25 20:16:11.6134 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.5.1426. Product version: 5.0.5+ace23d89ecf3dc2675648414a1f01ee9c1b2383d. GlobalAssemblyCache: False
+2022-11-25 20:16:11.6134 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/app/bin/Debug/netcoreapp3.1/NLog.config
+2022-11-25 20:16:11.6845 Info FileTarget(Name=fileTarget): Deleting old archive file: '/app/bin/Debug/netcoreapp3.1/logs/IntegTest.1.log'.
+2022-11-25 20:16:11.6940 Info FileTarget(Name=fileTarget): Archiving /app/bin/Debug/netcoreapp3.1/logs/IntegTest.log to /app/bin/Debug/netcoreapp3.1/logs/IntegTest.11.log
+2022-11-25 20:18:27.5169 Info Message Template Auto Format enabled
+2022-11-25 20:18:27.5344 Info Loading assembly: NLog.Web.AspNetCore
+2022-11-25 20:18:27.6004 Info Adding target FileTarget(Name=fileTarget)
+2022-11-25 20:18:27.6004 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-11-25 20:18:27.6107 Info Adding target FileTarget(Name=MiddleTarget)
+2022-11-25 20:18:27.6340 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/app/bin/Debug/netcoreapp3.1/NLog.config
+2022-11-25 20:18:27.6504 Info Configuration initialized.
+2022-11-25 20:18:27.6959 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.5.1426. Product version: 5.0.5+ace23d89ecf3dc2675648414a1f01ee9c1b2383d. GlobalAssemblyCache: False
+2022-11-25 20:18:27.6959 Info Validating config: TargetNames=MiddleTarget, consoleTarget, fileTarget, ConfigItems=42, FilePath=/app/bin/Debug/netcoreapp3.1/NLog.config
+2022-11-25 20:18:27.7603 Info FileTarget(Name=fileTarget): Deleting old archive file: '/app/bin/Debug/netcoreapp3.1/logs/IntegTest.2.log'.
+2022-11-25 20:18:27.7603 Info FileTarget(Name=fileTarget): Archiving /app/bin/Debug/netcoreapp3.1/logs/IntegTest.log to /app/bin/Debug/netcoreapp3.1/logs/IntegTest.12.log

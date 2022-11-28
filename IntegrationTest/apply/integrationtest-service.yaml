@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.27.0 (b0ed6a2c9)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: integrationtest
+  name: integrationtest
+spec:
+  ports:
+    - name: "5000"
+      port: 5000
+      targetPort: 6550
+  selector:
+    io.kompose.service: integrationtest
+status:
+  loadBalancer: {}
