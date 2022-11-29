@@ -45,7 +45,7 @@ env:
   RESOURCE_GROUP: CICD_RG
   CLUSTER_NAME: CICDKluster
   CHART_PATH: ./IntegrationTest/charts/chart-demo
-  CHART_OVERRIDE_PATH: ./IntegrationTest/charts/chart-demo/override
+  CHART_OVERRIDE_PATH: ./IntegrationTest/charts/chart-demo/override.yaml
 
 jobs:
   
