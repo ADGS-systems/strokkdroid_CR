@@ -44,8 +44,8 @@ env:
   CONTAINER_NAME: demoapi_autobuild
   RESOURCE_GROUP: CICD_RG
   CLUSTER_NAME: CICDKluster
-  CHART_PATH: ./IntegrationTests/charts
-  CHART_OVERRIDE_PATH: ./IntegrationTests/charts/override
+  CHART_PATH: ./IntegrationTest/charts
+  CHART_OVERRIDE_PATH: ./IntegrationTest/charts/override
 
 jobs:
   
